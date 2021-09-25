@@ -1,11 +1,13 @@
 ## Compile cpp extension for horizontal bbox nms  
-#### original file tree:  
--HBB_NMS_CPU  
---cpu_nms.pyx  
---__init__.py  
---Makefile  
---setup.py  
-#### Begin to compile cpp extension  
+### original file tree:  
+```
+|- HBB_NMS_CPU/  
+   |-- cpu_nms.pyx  
+   |-- __init__.py  
+   |-- Makefile  
+   |-- setup.py  
+```
+### Begin to compile cpp extension  
 1. create conda environment  
 ```
 conda create -n nms_cpu python=3.7 -y  
@@ -19,12 +21,14 @@ pip install Cython
 ```
 make
 ```
-#### End compile  
-#### Result file tree  
--HBB_NMS_CPU  
---cpu_nms.pyx  
---__init__.py  
---Makefile  
---setup.py  
---`cpu_nms.cpp`  
---`cpu_nms.cpython-37m-x86_64-linux-gnu.so`
+### End compile  
+### Result file tree  
+```
+|- HBB_NMS_CPU  
+   |-- cpu_nms.pyx  
+   |-- __init__.py  
+   |-- Makefile  
+   |-- setup.py  
+   |-- `cpu_nms.cpp`  
+   |-- `cpu_nms.cpython-37m-x86_64-linux-gnu.so`  
+```
