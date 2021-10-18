@@ -24,6 +24,20 @@ pip install Cython
 3. run make  
 ```
 make
+```  
+**Note**  
+```
+If you meet the error like this when you run `make`
+Traceback (most recent call last):
+  File "setup.py", line 58, in <module>
+    CUDA = locate_cuda()
+  File "setup.py", line 55, in locate_cuda
+    raise EnvironmentError('The CUDA %s path could not be located in %s' % (k, v))
+OSError: The CUDA lib64 path could not be located in /usr/lib64
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 1
+
+You should modify the 'lib64' to 'lib' in setup.py file
 ```
 ### End compile  
 ### Result file tree  
