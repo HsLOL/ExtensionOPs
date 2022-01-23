@@ -1,6 +1,5 @@
 # A demo about compilation with C++ and CUDA for Python Extension.  
 ## Get Started  
-### Environment  
 A. Install requirements  
 ```
 conda create -n env python=3.7
