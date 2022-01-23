@@ -1,14 +1,23 @@
-### A demo about compilation with C++ and CUDA for Python Extension.  
-### Get Started  
-#### Environment  
+# A demo about compilation with C++ and CUDA for Python Extension.  
+## Get Started  
+### Environment  
 A. Install requirements  
 ```
 conda create -n env python=3.7
 conda activate env
 conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
 ```
-B. File Tree  
+B. Compile the Python Extension
 ```
+make
+```
+C. Test the Python Extension
+```
+python test.py
+```
+### File Tree  
+```
+# Here is the project file tree.
 demo/
     -src/
         -sigmoid_cuda.cpp
