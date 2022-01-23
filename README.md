@@ -1,7 +1,7 @@
 ## collection of C/C++/CUDA extensions  
-- NMS Op Extension (nms/ folder)  
+- NMS Op Extension (`nms/` folder)  
 ## Update A demo about using C++ and CUDA for compile python extension.  
-- demo (demo/ demo folder)  
+- demo (`demo/` folder)  
 ## Reference:  
 [https://github.com/ming71/CUDA](https://github.com/ming71/CUDA)  
 [https://github.com/rbgirshick/py-faster-rcnn/tree/master/lib](https://github.com/rbgirshick/py-faster-rcnn/tree/master/lib)  
