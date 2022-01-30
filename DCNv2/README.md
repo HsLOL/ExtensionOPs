@@ -1,5 +1,5 @@
 ## Compile cuda extension for DCNv2  
-### original file tree:  
+### original file tree  
 ```
 |- DCNv2/  
    |-- dcn_v2.py  
@@ -9,7 +9,7 @@
    |-- Makefile  
    |-- setup.py  
    |-- DCN/  
-       |-- scr/  
+       |-- src/  
            |-- dcn_v2.h  
 	   |-- vision.cpp  
 	   |-- cpu/  
@@ -48,7 +48,7 @@ make
    |-- setup.py
    |-- _ext.cpython-37m-x86_64-linux-gnu.so (produced .so file)  
    |-- DCN/
-       |-- scr/
+       |-- src/
            |-- dcn_v2.h
            |-- vision.cpp
            |-- cpu/
@@ -65,4 +65,5 @@ make
                |-- vision.h
 
 ```
-
+### For gradcheck problem  
+[Readme](https://github.com/CharlesShang/DCNv2)
